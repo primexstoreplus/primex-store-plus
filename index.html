@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PrimeX Store Plus</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+      radial-gradient(circle at top,#087cff55,transparent 35%),
+      linear-gradient(145deg,#020817,#061a35,#020817);
+    color:white;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:460px;
+    padding:30px 22px;
+    border-radius:30px;
+    background:rgba(5,20,40,.78);
+    border:1px solid #1687ff55;
+    box-shadow:
+      0 25px 80px #006cff35,
+      inset 0 1px 1px #ffffff15;
+    backdrop-filter:blur(20px);
+}
+
+/* LOGO */
+
+.logo{
+    width:100px;
+    height:100px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:28px;
+    background:linear-gradient(145deg,#20a0ff,#0051d9);
+    box-shadow:0 15px 40px #0077ff55;
+    font-size:28px;
+    font-weight:900;
+    letter-spacing:-2px;
+}
+
+.logo span{
+    text-shadow:0 3px 15px #001d4d;
+}
+
+h1{
+    text-align:center;
+    margin-top:18px;
+    font-size:27px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#91a9c5;
+    margin-top:7px;
+    font-size:14px;
+}
+
+.badge{
+    width:max-content;
+    margin:14px auto 0;
+    padding:7px 14px;
+    border-radius:50px;
+    background:#087cff18;
+    border:1px solid #1687ff55;
+    color:#70bcff;
+    font-size:11px;
+    font-weight:bold;
+}
+
+/* BUTTONS */
+
+.links{
+    margin-top:28px;
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.link{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    color:white;
+    padding:14px;
+    border-radius:19px;
+    background:linear-gradient(
+        100deg,
+        #0d2949,
+        #071a31
+    );
+    border:1px solid #78baff18;
+    transition:.25s;
+}
+
+.link:hover{
+    transform:translateY(-3px);
+    border-color:#1687ff88;
+    box-shadow:0 12px 30px #006cff25;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:25px;
+    flex-shrink:0;
+}
+
+.whatsapp{
+    background:linear-gradient(145deg,#20d96b,#079d50);
+}
+
+.telegram{
+    background:linear-gradient(145deg,#29adff,#087bc4);
+}
+
+.facebook{
+    background:linear-gradient(145deg,#3d91ff,#145ed0);
+}
+
+.info{
+    margin-left:14px;
+    flex:1;
+}
+
+.title{
+    font-size:15px;
+    font-weight:bold;
+}
+
+.username{
+    color:#8ca6c2;
+    font-size:12px;
+    margin-top:4px;
+}
+
+.arrow{
+    width:32px;
+    height:32px;
+    border-radius:10px;
+    background:#ffffff0d;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#8ecaff;
+    font-size:22px;
+}
+
+/* FOOTER */
+
+.note{
+    text-align:center;
+    margin-top:20px;
+    color:#607b98;
+    font-size:11px;
+}
+
+.footer{
+    text-align:center;
+    margin-top:15px;
+    color:#4e6884;
+    font-size:10px;
+    letter-spacing:.4px;
+}
+
+.dot{
+    color:#1687ff;
+}
+
+@media(max-width:380px){
+    h1{
+        font-size:24px;
+    }
+
+    .container{
+        padding:25px 17px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <span>PX+</span>
+    </div>
+
+    <h1>PrimeX Store Plus</h1>
+
+    <p class="subtitle">
+        Connect with us
+    </p>
+
+    <div class="badge">
+        ● OFFICIAL CONTACTS
+    </div>
+
+
+    <div class="links">
+
+        <!-- WHATSAPP -->
+        <a
+        class="link"
+        href="https://wa.me/8801882333181"
+        target="_blank">
+
+            <div class="icon whatsapp">
+                💬
+            </div>
+
+            <div class="info">
+                <div class="title">
+                    WhatsApp
+                </div>
+
+                <div class="username">
+                    +880 1882-333181
+                </div>
+            </div>
+
+            <div class="arrow">
+                ›
+            </div>
+
+        </a>
+
+
+        <!-- TELEGRAM -->
+        <a
+        class="link"
+        href="https://t.me/rimonvai005"
+        target="_blank">
+
+            <div class="icon telegram">
+                ✈️
+            </div>
+
+            <div class="info">
+                <div class="title">
+                    Telegram
+                </div>
+
+                <div class="username">
+                    @rimonvai005
+                </div>
+            </div>
+
+            <div class="arrow">
+                ›
+            </div>
+
+        </a>
+
+
+        <!-- FACEBOOK PAGE -->
+        <a
+        class="link"
+        href="https://www.facebook.com/share/1DfBJgy1FQ/?mibextid=wwXIfr"
+        target="_blank">
+
+            <div class="icon facebook">
+                f
+            </div>
+
+            <div class="info">
+                <div class="title">
+                    Facebook Page
+                </div>
+
+                <div class="username">
+                
